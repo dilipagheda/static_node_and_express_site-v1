@@ -1,0 +1,43 @@
+{
+    "projects": [{
+        "id": "0",
+        "project_name": "A Random Quote Generator",
+        "description": "This project is about writing plain java script to generate a random quote, category, source, year and citation and display it beautifully on the page. It uses JSON object to define various attributes of a quote object. It also has features like new quote every 20 seconds and changing background color and text color for every new quote to provide more engaging user experience.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://dilipagheda.github.io/a_random_quote_generator-v1/",
+        "github_link": "https://github.com/dilipagheda/a_random_quote_generator-v1",
+        "image_urls": ["/static/images/project1/p1_1.png","/static/images/project1/p1_2.png","/static/images/project1/p1_3.png","/static/images/project1/p1_4.png"]
+    },{
+        "id": "1",
+        "project_name": "List Pagination and Filtering",
+        "description": "This project is about enhancing the usability of a web page that contains a long list by employing JavaScript to dynamically divide the list into 'pages'. It also has a search feature to display only the students that match the search criteria.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://dilipagheda.github.io/list_pagination_and_filtering-v1/",
+        "github_link": "https://github.com/dilipagheda/list_pagination_and_filtering-v1",
+        "image_urls": ["/static/images/project2/p2_1.png","/static/images/project2/p2_2.png","/static/images/project2/p2_3.png","/static/images/project2/p2_4.png"]
+    },{
+        "id": "2",
+        "project_name": "Interactive Form",
+        "description": "This project is about building an interactive form using jQuery library. It has lot of interactivity and form validations with dynamic error messages",
+        "technologies": ["HTML", "CSS", "jQuery"],
+        "live_link": "https://dilipagheda.github.io/interactive-form-v1/",
+        "github_link": "https://github.com/dilipagheda/interactive-form-v1",
+        "image_urls": ["/static/images/project3/p3_1.png","/static/images/project3/p3_2.png","/static/images/project3/p3_3.png","/static/images/project3/p3_4.png"]
+    },{
+        "id": "3",
+        "project_name": "OOP Game Show App",
+        "description": "This project is about building a browser-based, word guessing game: 'Phrase Hunter'. It is built using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Player has to guess the phrase before they run out of attempts.",
+        "technologies": ["HTML", "CSS", "JavaScript", "OOP","jQuery","Animate.css"],
+        "live_link": "https://dilipagheda.github.io/game_show_app_v1.2/",
+        "github_link": "https://github.com/dilipagheda/game_show_app_v1.2",
+        "image_urls": ["/static/images/project4/p4_1.png","/static/images/project4/p4_2.png","/static/images/project4/p4_3.png","/static/images/project4/p4_4.png"]
+    },{
+        "id": "4",
+        "project_name": "Public API Requests",
+        "description": "This project is about building an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. It uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees', and use that data to build a prototype for an Awesome Startup employee directory.",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "Fetch API"],
+        "live_link": "https://dilipagheda.github.io/employee_directory_v1/",
+        "github_link": "https://github.com/dilipagheda/employee_directory_v1",
+        "image_urls": ["/static/images/project5/p5_1.png","/static/images/project5/p5_2.png","/static/images/project5/p5_3.png","/static/images/project5/p5_4.png"]
+    }]
+}

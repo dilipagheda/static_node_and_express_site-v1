@@ -1,0 +1,7 @@
+
+extends layout.pug
+
+block content 
+    h2 #{error.message}
+    h3 Status code: #{error.status}
+    p #{error.stack}

@@ -19,9 +19,9 @@ Handle errors
 Set up a server to serve the project
 
 # Dependancies
-Express
-Pug
-Middlewares (body-parser)
+- Express
+- Pug
+- Middlewares (body-parser)
 
 # How to run this project locally
 - Download the repo to your local machine

@@ -5,23 +5,26 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Heading
+      h1 My Fullstack JavaScript Portfolio
 
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
+      //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to 
+      //accomplish, etc. 
       p.lead.text-light
-        | Portfolio Description
+        | These are the projects I built as part of Treehouse Fullstack Javascript Techdegree. Each project is unique and aimed towards building a specific skill such as Plain JavaScript, Object oriented programming with JavaScript, Client-side validations and error handling, building a game with animations, Fetch API, React.js, building a complete web application using Node.js and Express and building an API and integrating it in the web app.
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-      //- Use the Pug `each` iterator to create a projet img, title and link in the markup for each of the projects you are showcasing.  
+      //- Use the Pug `each` iterator to create a projet img, title and link in the markup for each of 
+      //the projects you are showcasing.  
       
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
+      //- Use a combination of interpolation and template literals as needed to dynamically generate the the 
+      //routes in the href, as well as the img's src and the projects title.
       
       //- Here's what the Pug for each project example should look like. 
-
-      .cell
-        a(href='#')
-          img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
+      each project in projects
+        .cell
+          a(href=`project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5 #{project.project_name}
       

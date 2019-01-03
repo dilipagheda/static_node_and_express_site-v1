@@ -18,9 +18,12 @@ block content
         h6 Technologies
 
         //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.
-        ul
+        ul.fa-ul
          each technology in project.technologies
-            li #{technology}
+            li 
+              span.fa-li
+                i.fas.fa-check-square
+              |#{technology}
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
         a.button.expanded(target="_blank", href=`${project.live_link}`) Live Demo

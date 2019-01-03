@@ -1,10 +1,11 @@
 
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+* {
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Exo', sans-serif;
+
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -69,7 +70,6 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -89,7 +89,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -147,4 +147,64 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+
+/*
+Custom styles
+*/ 
+body {
+  color:#080f5b;
+}
+
+#my-info, #my-info a {
+  background-color:#0d19a3;
+  color:#F4E3C4;
+  text-align: center;
+}
+#my-info .thumbnail{
+  background-color: #F4E3C4;
+  border-color:#fff;
+}
+article{
+  background-color:#f4e4c1;
+}
+nav, nav a {
+  background-color:#080f5b;
+  color:#F4E3C4;
+}
+nav a:hover {
+  color:#fff;
+}
+ul li {
+  list-style: none;  
+  /* background-color:#0C1257; */
+  /* color: #F4E3C4 !important; */
+  color:#0C1257 !important;
+  /* margin:2px 0; */
+  /* padding:2px; */
+  font-family: 'Audiowide', cursive !important;
+
+}
+ul li:hover {
+  font-weight: bolder;
+}
+.button{
+  background-color:#080f5b;
+  color:#F4E3C4;
+}
+.button:hover{
+  border:1px solid #080f5b;
+  color:#080f5b;
+  background-color:#F4E3C4;
+}
+.portfolio-bio p {
+  padding:0;
+}
+.contact-info{
+  border-bottom:1px solid #080f5b;
+  /* background-color: #080f5b; */
+  color:#080f5b;
+  margin:5px 0;
+  padding:5px;
 }

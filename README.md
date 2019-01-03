@@ -30,3 +30,5 @@ Set up a server to serve the project
 - Run nodemon 
 - Type localhost:3000 in your browser
 
+# Deployment
+This project is live on https://fsjs-portfolio.herokuapp.com/ and hosted on Heroku. Yay!!

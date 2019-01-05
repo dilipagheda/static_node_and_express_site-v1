@@ -5,7 +5,7 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.small-12.medium-9.large-9
 
         //- Use interploation to dynamically add the project title.
         h1 #{project.project_name}
@@ -14,7 +14,7 @@ block content
         p.lead.text-light
           | #{project.description} 
 
-      .cell.portfolio-meta.small-6.medium-2.large-3
+      .cell.portfolio-meta.small-12.medium-2.large-3
         h6 Technologies
 
         //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.

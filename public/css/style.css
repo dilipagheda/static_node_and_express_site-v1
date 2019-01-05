@@ -99,12 +99,13 @@ a:hover{
 
 .portfolio-intro{
   margin: 0;
-  padding: 40px 50px 30px;
+  /* padding: 40px 50px 30px; */
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #080f5b;
   padding-bottom: 40px;
+  margin:0;
 }
 
 .portfolio-index{
@@ -129,7 +130,7 @@ a:hover{
     }
 
 .portfolio-meta{
-  padding-left: 20px;
+  padding-left: 0;
 }
 
   .portfolio-meta .button{
@@ -209,8 +210,36 @@ ul li:hover {
   color:#080f5b;
   margin:5px 0;
   padding:5px;
+  text-align: center;
 }
 article .cell img {
   box-shadow: 6px 6px 6px 0 rgba(46, 61, 73, 0.5);
 
 }
+
+h1 , .h1,p,h6 {
+  text-align: center;
+}
+
+li {
+  border-bottom:1px solid #080f5b;
+  padding-bottom: 5px;
+}
+
+.portfolio-bio p{
+  margin-bottom:10px;
+}
+@media (min-width:768px){
+
+  h1 , .h1 , p,h6{
+    text-align: left;
+  }
+  .portfolio-meta{
+    padding-left: 20px;
+  }
+  .contact-info{
+
+    text-align: left;
+  }
+}
+
